@@ -1,0 +1,10 @@
+# Figure 2: three matched saturation curves
+A–C: theta_c,c=0.0002, 0.02 and 0.1 mM. Polymerization, turnover and adhesion sweeps use common intervals within each panel: 100–350, 1000–1500 and 100–450 s respectively. Velocity is area-centroid displacement divided by interval duration, in µm/h. These are finite-time responses, not necessarily steady states. A parameter value is displayed only when all three branches have valid shared endpoints and absolute mean speed ≤100 µm/h. Missing values remain gaps, without extrapolation; see the source and exclusions tables. Different panels use different time windows.
+
+D–F preserve the accepted figure content: cell-fraction-weighted total-actin conservation and two illustrative shape/F-actin/G-actin/actin-streamline rows. The high-deformation A_E09 example lies outside the response-speed cutoff and is retained as the previously selected field illustration. Shapes for different parameters are shown separately. Field colors retain row-specific ranges.
+
+128² grid, fixed 5 s time step, target 2000 s, fields every 50 s. Numerical stops and boundary early stops retain only their valid prior states. No mesh refinement. Source table records eventual run status and whether each point was included.
+
+Layout: compact adjacent vertical colorbars; shared spatial axes within rows. A–D share the saturation-color legend in A. E/F retain the accepted field selections and row-specific color ranges; white streamlines show cell-relative F-actin flow.
+
+D: three total-actin conservation histories for theta_c,c=0.0002, 0.02, 0.1 mM, all on 0–1900 s with 50 s saved fields. Fixed J_poly=0.006 µm mM/s, gamma=0.01/s, eta_st=0.0002 Pa s/(µm² mM), zero pumping, initial F=G=0.1 mM, 80 µm box and 128² grid. Inventories sum F and G using polygon cell fractions and one-sided affine interior values. Each curve is normalized by its own initial inventory. Maximum absolute percentage changes: 0.0002 mM: 0.082760%, 0.02 mM: 0.064932%, 0.1 mM: 0.029935%. These are reconstructed inventory diagnostics, not a convergence study.

@@ -1,0 +1,98 @@
+# Build artifacts
+*.o
+*.mod
+*.s
+imp
+*.log
+/test_*
+!/test_*.f90
+!/test_*.py
+!/test_*.sh
+
+# Runtime output
+Data/
+output/
+run1/
+run2/
+
+# Python and document build caches
+__pycache__/
+*.py[cod]
+docs/build/
+tmp/
+
+# Locally downloaded third-party papers (keep summaries and citations instead)
+docs/Li_Yao_Mori_Sun_2019_PNAS.pdf
+docs/Li_Yao_Mori_Sun_2019_PNAS_SI.pdf
+docs/Yao2025_JTB.pdf
+docs/YaoMori2017-JCP.pdf
+
+# Generated study previews and diagnostic images
+*.fragment.html
+cases/yao_li_jtb_2025/spike_collocation_diagnostic.png
+
+# Simulation data / dumps
+*.dat
+dump.*
+*.bin
+
+# Editor / OS
+.DS_Store
+
+# Generated build and presentation workspaces
+build/
+node_modules
+/.codex-slides-yizeng-*/
+/cases/discussion_yizeng*/
+/.chart-data-*/
+/.codex-water-flux-paper-plan/
+/.codex-osmosis-actin-slides/
+/.codex-slides-water-actin/
+/slides/*.pptx
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.spl
+*.thm
+/docs/MODEL_NONDIMENSIONALIZATION.pdf
+/docs/numerical_scheme.pdf
+
+# Local literature downloads; retain the previously versioned model reference
+/references/*.pdf
+!/references/CellSim.pdf
+
+# Generated study metric tables
+/cases/water_flux_actin_core/cheap_scout_2026_09_09/summary_metrics.csv
+/cases/water_flux_actin_core/time_refinement_2026_09_09/time_refinement_summary.csv
+
+# Documentation and literature are maintained outside version control
+/docs/
+/references/
+
+# Only the Figure 2-4 cases are versioned; raw run output stays outside the repo
+/cases/*
+!/cases/README.md
+!/cases/figure2/
+!/cases/figure3/
+!/cases/figure4/
+
+# Validation extras kept on disk but not versioned
+/header
+/test_*.f90
+/tools/*
+!/tools/visualize_results.py
+/dualchem/AdvecDiff2d-semiperiodic/GNUmakefile
+/dualchem/AdvecDiff2d-semiperiodic/include/MyTimer.h
+
+# Agent instructions are local working notes
+/AGENTS.md
+/cases/figure4/slides/

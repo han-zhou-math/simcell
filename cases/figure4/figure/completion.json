@@ -1,0 +1,70 @@
+{
+  "state": "generated",
+  "temporary_preview": false,
+  "replaces_current_figure4": true,
+  "field_time_s": 700,
+  "speed_interval_s": [
+    100,
+    700
+  ],
+  "new_runs": 4,
+  "figure_pdf": "/users/PBS0318/hzhou24/simcell/run_plan_discussion2/figure4_interaction_preview_2026_09_23/analysis_main/Figure_4.pdf",
+  "figure_png": "/users/PBS0318/hzhou24/simcell/run_plan_discussion2/figure4_interaction_preview_2026_09_23/analysis_main/Figure_4.png",
+  "mesh_check": {
+    "grid": 256,
+    "profile": "K12",
+    "combined_speed_um_h": 53.49622567819543,
+    "additive_speed_um_h": 48.11554161833534,
+    "interaction_speed_um_h": 5.380684059860087,
+    "relative_enhancement_percent": 11.182840053097676
+  },
+  "interaction_summary": [
+    {
+      "profile": "K06",
+      "label": "$k_f=0.06$",
+      "group": "strength",
+      "combined_speed_um_h": 42.10870963393129,
+      "additive_speed_um_h": 39.27397674220947,
+      "interaction_speed_um_h": 2.8347328917218206,
+      "relative_enhancement_percent": 7.217840226185214
+    },
+    {
+      "profile": "K09",
+      "label": "$k_f=0.09$",
+      "group": "strength",
+      "combined_speed_um_h": 47.50502339580167,
+      "additive_speed_um_h": 43.26104557136971,
+      "interaction_speed_um_h": 4.243977824431958,
+      "relative_enhancement_percent": 9.810160083695793
+    },
+    {
+      "profile": "K12",
+      "label": "$k_f=0.12$",
+      "group": "both",
+      "combined_speed_um_h": 53.610974519583536,
+      "additive_speed_um_h": 48.38819943271585,
+      "interaction_speed_um_h": 5.222775086867685,
+      "relative_enhancement_percent": 10.793489214513947
+    },
+    {
+      "profile": "H070",
+      "label": "$h_f=0.070\\pi$",
+      "group": "width",
+      "combined_speed_um_h": 49.89472549303716,
+      "additive_speed_um_h": 45.487686240313934,
+      "interaction_speed_um_h": 4.407039252723223,
+      "relative_enhancement_percent": 9.688422553393007
+    },
+    {
+      "profile": "H140",
+      "label": "$h_f=0.140\\pi$",
+      "group": "width",
+      "combined_speed_um_h": 56.19935559412333,
+      "additive_speed_um_h": 50.4675032436025,
+      "interaction_speed_um_h": 5.731852350520832,
+      "relative_enhancement_percent": 11.3575112342167
+    }
+  ],
+  "status": "accepted_main",
+  "source_preview": "/users/PBS0318/hzhou24/simcell/run_plan_discussion2/figure4_interaction_preview_2026_09_23/analysis_compact_labels/Figure_4_interaction_preview.pdf"
+}

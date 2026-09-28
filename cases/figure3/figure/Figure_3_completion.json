@@ -1,0 +1,40 @@
+{
+  "preview": false,
+  "response_points": 14,
+  "missing": [],
+  "visual_cases": [
+    {
+      "case": "F3_KP090_W105_FP",
+      "kf_um_s": 0.09,
+      "kr_um_s": 0.09,
+      "hf_over_pi": 0.105,
+      "hr_over_pi": 0.105,
+      "time_s": 2000,
+      "area_ratio": 1.2676396250801263,
+      "aspect_ratio": 1.0617994279267768,
+      "color_limit_mM": 7.802393055131032
+    },
+    {
+      "case": "W_K09_R3",
+      "kf_um_s": 0.09,
+      "kr_um_s": 0.03,
+      "hf_over_pi": 0.105,
+      "hr_over_pi": 0.315,
+      "time_s": 2000,
+      "area_ratio": 1.2537263061616077,
+      "aspect_ratio": 1.1119768906236298,
+      "color_limit_mM": 7.802393055131032
+    },
+    {
+      "case": "W_K15_R3",
+      "kf_um_s": 0.15,
+      "kr_um_s": 0.049999999999999996,
+      "hf_over_pi": 0.105,
+      "hr_over_pi": 0.315,
+      "time_s": 2000,
+      "area_ratio": 2.003928664253505,
+      "aspect_ratio": 1.2206135517363006,
+      "color_limit_mM": 7.802393055131032
+    }
+  ]
+}
