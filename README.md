@@ -1,4 +1,4 @@
-# SimCELL dev-minimal
+# SimCELL
 
 SimCELL simulates the migration of a single cell in two dimensions. The cell
 is a closed, elastic, water-permeable membrane immersed in Stokes fluid.
